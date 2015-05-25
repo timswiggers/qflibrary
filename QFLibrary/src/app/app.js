@@ -1,1 +1,1 @@
-﻿angular.module('app', []);
+﻿var qflibrary = angular.module('qflibrary', ['ngCookies']);

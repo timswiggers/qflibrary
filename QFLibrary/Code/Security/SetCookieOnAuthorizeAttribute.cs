@@ -58,7 +58,7 @@ namespace QFLibrary.Code.Security
 
     internal static class CookieAuthorization
     {
-        public const string CookieSessionKey = "qflibrary.session";
+        public const string CookieSessionKey = "qflibrary_session";
 
         public static void SetCookie(IPrincipal principal, Func<String, bool> cookieExists, Action<String, String> setCookie)
         {
