@@ -6,7 +6,7 @@ namespace QFLibrary.Code.Controllers
     {
         public ActionResult ToIndexHtml()
         {
-            return new FilePathResult("src/app/index.html", "text/html");
+            return new FilePathResult("src/index.html", "text/html");
         }
     }
 }

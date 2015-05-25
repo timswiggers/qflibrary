@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -115,7 +116,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\app\index.html" />
+    <Content Include="src\app\app.js" />
+    <Content Include="src\index.html" />
     <Content Include="src\assets\favicon.ico" />
     <Content Include="src\lib\angular-route\angular-route.min.js.map" />
   </ItemGroup>
