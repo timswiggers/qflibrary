@@ -1,0 +1,9 @@
+{
+  "name": "QFLibrary",
+  "version": "0.1.0",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4"
+  }
+}

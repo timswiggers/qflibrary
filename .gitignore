@@ -1,0 +1,12 @@
+*.suo
+*.user
+
+**/packages/*
+node_modules/
+bower_components/
+[Bb]in/
+[Oo]bj/
+
+QFLibrary/src/lib/
+
+
