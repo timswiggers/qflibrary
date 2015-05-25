@@ -8,7 +8,7 @@ bower_components/
 [Bb]in/
 [Oo]bj/
 
-*.css
+src/css*
 
 QFLibrary/src/lib/
 
